@@ -1,6 +1,9 @@
 require "eli_doubler/version"
 
-module EliDoubler
-  class Error < StandardError; end
-  # Your code goes here...
+class Integer
+
+	def double
+		self*2
+	end
+	
 end
